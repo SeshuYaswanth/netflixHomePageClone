@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix India - Watch Tv Shows Online, Watch Movies Online</title>
+
+  <!-- icon link -->
+  <link rel="icon" href="../images/netflixIcon.png">
+
+  <!-- BootStrap Icons Link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <!-- css link -->
+  <link rel="stylesheet" href="../Css/homePage.css">
+
+  <!-- BootStrap Links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div id="main">
+    <!-- The main Homepage image -->
+    <div id="image">
+
+
+      <!--The start of Navbar -->
+      <!-- Thelogo -->
+      <div class="d-flex justify-content-between">
+        <img id="logo" src="../images/netflixLogo.png" alt="Logo">
+        <!-- the Form in navBar  -->
+        <div id="form">
+          <select id="dropdown" class="btn btn-outline-light">
+            <option value="1">English</option>
+            <option value="2">Hindi</option>
+          </select>
+          <button id="signIn" class="btn btn-danger">Sign In</button>
+        </div>
+      </div>
+      <!--The End of Navbar -->
+
+
+      <!-- The start of story -->
+      <div id="container">
+        <!-- Quote1 -->
+        <div class="d-flex justify-content-center">
+          <div id="quote1" class="col-6">Unlimited movies, TV shows and more.</div>
+        </div>
+        <!-- Quote2 -->
+        <div class="d-flex justify-content-center">
+          <div id="quote2">Watch anywhere. Cancel anytime.</div>
+        </div>
+        <!-- Quote3 -->
+        <div class="d-flex justify-content-center">
+          <div id="quote3">Ready to watch? Enter your email to create or restart your membership.</div>
+        </div>
+        <!-- form -->
+        <div class="input-group d-flex justify-content-center">
+          <input id="input" type="text" placeholder="Email address">
+          <button id="button" class="btn btn-danger">Get Started <i class="bi bi-arrow-right"></i></button>
+        </div>
+        <!-- the End of Story Teller -->
+      </div>
+      <!-- The End of image element -->
+    </div>
+    <!-- End of Main Home PAge -->
+  </div>
+
+  <!-- hr -->
+  <hr id="hr" class="border border-dark border-4 opacity-100">
+
+  <!-- start of Advertisement -->
+  <!-- Android Tv Advertisement -->
+  <div id="android" class="d-flex justify-content-evenly align-items-center">
+    <div>
+      <p id="androidAd1">Enjoy on your TV.</p>
+      <p id="androidAd2">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+    </div>
+    <div>
+      <img id="androidTv" src="../images/netflixTV.png" alt="AndroidTv">
+      <video id="androidVideo" src="../Videos/android.m4v" autoplay playsinline loop muted></video>
+    </div>
+  </div>
+  <!-- hr -->
+  <hr id="hr" class="border border-dark border-4 opacity-100">
+
+  <!-- Mobile Advertisement -->
+  <div id="mobile" class="d-flex justify-content-evenly align-items-center">
+    <div>
+      <img id="mobileView" src="../images/netflixStrangerThings.jpg" alt="mobileTv">
+    </div>
+    <div>
+      <p id="mobileAd3">Download your shows to watch offline.</p>
+      <p id="mobileAd4">Save your favourites easily and always have something to watch.</p>
+    </div>
+  </div>
+  <!-- hr -->
+  <hr id="hr" class="border border-dark border-4 opacity-100">
+  
+  <!-- AppleTv -->
+  <div id="apple" class="d-flex justify-content-evenly align-items-center">
+    <div>
+      <p id="appleAd5">Watch everywhere.</p>
+      <p id="appleAd6">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+    </div>
+    <div>
+      <img id="appleTv" src="../images/netflixTvApple.png" alt="AppleTv">
+      <video id="appleVideo" src="../Videos/apple.m4v" autoplay playsinline loop muted></video>
+    </div>
+  </div>
+
+  <!-- hr -->
+  <hr id="hr" class="border border-dark border-4 opacity-100">
+
+  <div id="children" class="d-flex justify-content-evenly align-items-center">
+    <div>
+      <img id="childrenView" src="/images/children.png" alt="mobileTv">
+    </div>
+    <div>
+      <p id="childrenAd7">Create profiles for children.</p>
+      <p id="childrenAd8">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+    </div>
+  </div>
+  <!-- hr -->
+  <hr id="hr" class="border border-dark border-4 opacity-100">
+  <!-- End of Advertisement -->
+
+  <!-- start of Frequently asked questions -->
+  <div id="mainFAQ">
+    <div class="d-flex justify-content-center">
+      <h1 id="FAQ">Frequently Asked Questions</h1>
+    </div>
+    <div class="d-flex align-items-center flex-column">
+      <div id="card">
+        <p class="card">
+          <a id="cardLink" class="btn btn-dark" data-bs-toggle="collapse" href="#content1" role="button" aria-expanded="false" aria-controls="collapseExample2">What is Netflix? <i id="icon" class="bi bi-plus-square"></i></a>
+        </p>
+        <div class="collapse" id="content1">
+          <div id="cardMagic" class="card card-body">
+            Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+            You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+          </div>
+        </div>
+      </div>
+      <div id="card">
+        <p class="card">
+          <a id="cardLink" class="btn btn-dark" data-bs-toggle="collapse" href="#content2" role="button" aria-expanded="false" aria-controls="collapseExample2">How much does Netflix cost? <i id="icon" class="bi bi-plus-square"></i></a>
+        </p>
+        <div class="collapse" id="content2">
+          <div id="cardMagic" class="card card-body">
+            Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.
+          </div>
+        </div>
+      </div>
+      <div id="card">
+        <p class="card">
+          <a id="cardLink" class="btn btn-dark" data-bs-toggle="collapse" href="#content3" role="button" aria-expanded="false" aria-controls="collapseExample2">Where can I watch? <i id="icon" class="bi bi-plus-square"></i></a>
+        </p>
+        <div class="collapse" id="content3">
+          <div id="cardMagic" class="card card-body">
+            Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+            You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+          </div>
+        </div>
+      </div>
+      <div id="card">
+        <p class="card">
+          <a id="cardLink" class="btn btn-dark" data-bs-toggle="collapse" href="#content4" role="button" aria-expanded="false" aria-controls="collapseExample2">How do I cancel? <i id="icon" class="bi bi-plus-square"></i></a>
+        </p>
+        <div class="collapse" id="content4">
+          <div id="cardMagic" class="card card-body">
+            Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+          </div>
+        </div>
+      </div>
+      <div id="card">
+        <p class="card">
+          <a id="cardLink" class="btn btn-dark" data-bs-toggle="collapse" href="#content5" role="button" aria-expanded="false" aria-controls="collapseExample2">What I can watch on Netflix? <i id="icon" class="bi bi-plus-square"></i></a>
+        </p>
+        <div class="collapse" id="content5">
+          <div id="cardMagic" class="card card-body">
+            Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+          </div>
+        </div>
+      </div>
+      <div id="card">
+        <p class="card">
+          <a id="cardLink" class="btn btn-dark" data-bs-toggle="collapse" href="#content6" role="button" aria-expanded="false" aria-controls="collapseExample2">Is Netflix good for kids? <i id="icon" class="bi bi-plus-square"></i></a>
+        </p>
+        <div class="collapse" id="content6">
+          <div id="cardMagic" class="card card-body">
+            The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
+            Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <p id="texts">Ready to watch? Enter your email to create or restart your membership.</p>
+    </div>
+    <div class="input-group d-flex justify-content-center">
+      <input id="input" type="text" placeholder="Email address">
+      <button id="button" class="btn btn-danger">Get Started <i class="bi bi-arrow-right"></i></button>
+    </div>
+  </div>
+  <!-- hr -->
+  <hr id="hr" class="border border-dark border-4 opacity-100">
+  <!-- End of FAQS -->
+
+
+  <!-- start of Footer -->
+  <div class="footer">
+    <div>
+      <p id="contact">Questions? Call <a href="#">000-800-919-1694</a></p>
+    </div>
+    <div class="d-flex justify-content-evenly">
+      <ul id="footerLinks">
+        <li><a class="footerList" href="#">FAQ</a></li class>
+        <li><a class="footerList" href="#">Investor Relations</a></li>
+        <li><a class="footerList" href="#">Privacy</a></li>
+        <li><a class="footerList" href="#">Speed Test</a></li>
+      </ul>
+      <ul id="footerLinks">
+        <li><a class="footerList" href="#">Help Center</a></li>
+        <li><a class="footerList" href="#">Jobs</a></li>
+        <li><a class="footerList" href="#">Cookie Prefrences</a></li>
+        <li><a class="footerList" href="#">Legal Notices</a></li>
+      </ul>
+      <ul id="smallFAQ">
+        <li><a class="footerList" href="#">Account</a></li>
+        <li><a class="footerList" href="#">Ways to Watch</a></li>
+        <li><a class="footerList" href="#">Corporate Information</a></li>
+        <li><a class="footerList" href="#">Only on Netflix</a></li>
+      </ul>
+      <ul id="smallFAQ">
+        <li><a class="footerList" href="#">Media Center</a></li>
+        <li><a class="footerList" href="#">Terms of Use</a></li>
+        <li><a class="footerList" href="#">Contact Us</a></li>
+      </ul>
+    </div>
+    <div id="footerForm">
+      <select id="dropdown" class="btn btn-outline-light">
+        <option value="1">English</option>
+        <option value="2">Hindi</option>
+      </select>
+    </div>
+    <div id="credits">Netflix India</div>
+
+    <div id="cont">Recreated by <a id="contribute" class="tracking-out-expand" href="https://github.com/SeshuYaswanth">Seshu Yaswanth Reddy</a></div>
+  </div>
+
+</body>
+</html>
